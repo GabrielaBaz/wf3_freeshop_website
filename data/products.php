@@ -2,7 +2,7 @@
 
 $products = array(
   'Alimentaire' => array( //Categorie
-    array( //Produit
+    array( //Produi
       'id' => 1,
       'name' => 'Pâtes', 
       'description' => 'De superbes pâtes, à déguster chez soi.',
