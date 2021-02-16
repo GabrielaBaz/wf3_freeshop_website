@@ -3,6 +3,52 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-item/blob/master/LICENSE)
  */
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   padding-top: 56px;
+
+  font-size: 1.6rem;
+  height: 100vh;
+  max-height: auto;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")
+      no-repeat center/cover;
+}
+
+nav {
+  background-color: #351f39;
+}
+
+.main {
+  height: auto;
+  padding-bottom: 100px;
+}
+
+footer {
+  /* height: 100px; */
+  background-color: #726a95;
+}
+
+.cart-count {
+  font-size: 1.2rem;
+  color: gray;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.transp-white {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-pinky {
+  background-color: #b83b5e;
+  border: none;
 }
